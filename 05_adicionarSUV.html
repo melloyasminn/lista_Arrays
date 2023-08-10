@@ -6,11 +6,12 @@
     //Apresente a lista antiga de SUVs e a nova lista, após a adição do veículo solicitado.
 
     //ENTRADA
-
-
+    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    const add = prompt(`Qual carro você deseja adicionar?`).trim();
+    const listaAntiga = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
     //PROCESSAMENTO
-
+    carrosSUV.push(add)
 
     //SAÍDA
-
+    alert(`A Lista antiga é : ${listaAntiga.join(", ")}. A nova lista é: ${carrosSUV.join(", ")}` )
 </script>
